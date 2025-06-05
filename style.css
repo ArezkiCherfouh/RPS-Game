@@ -24,7 +24,7 @@
         cursor: pointer;
         margin-left: 10px;
         box-shadow: 1px 1px 5px #0786ed;
-        width: 16%;
+        width: 22%;
         height: 60px;
         font-size: 40px;
         user-select: none;
@@ -57,7 +57,7 @@
         box-shadow: 1px 1px 5px orangered;
         height: 60px;
         font-size: 40px;
-        width: 16%;
+        width: 22%;
         transition: 0.2s;
     }
     .playfriend:hover {
