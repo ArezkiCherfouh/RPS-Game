@@ -1,0 +1,477 @@
+@media (min-width:1280px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        display: inline-block;
+    }
+    .mainfiel {
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .question {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .playcomputer {
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #07f2f2;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px #0786ed;
+        width: 16%;
+        height: 60px;
+        font-size: 40px;
+        user-select: none;
+        transition: 0.2s;
+    }
+    .playcomputer:hover {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 1px 1px 8px orangered;
+        transform: scale(1.05);
+    }
+    .playcomputer:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .playfriend{
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #f80606;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px orangered;
+        height: 60px;
+        font-size: 40px;
+        width: 16%;
+        transition: 0.2s;
+    }
+    .playfriend:hover {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 1px 1px 8px orangered;
+        transform: scale(1.05);
+    }
+    .playfriend:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .copy {
+        font-size: 180%;
+        margin-left: 5%;
+    }
+    .mail,.tel {
+        font-size: 180%;
+        color: #0786ed;
+    }
+    .mail:hover,.tel:hover {
+        color: #07f2f2;
+    }
+    .maila,.tela {
+        font-size: 100%;
+        color: #0786ed;
+    }
+    .maila:hover,.tela:hover {
+        color: #07f2f2;
+    }
+    .godark {
+        font-size: 40px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 20px;
+    }  
+    .godark:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    .godark:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    .golight {
+        font-size: 40px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: black;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 20px;
+    }  
+    .golight:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    .golight:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+}
+@media (max-width:1279px) and (min-width:1000px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        display: inline-block;
+    }
+    .mainfiel {
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .question {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .playcomputer {
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #07f2f2;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px #0786ed;
+        width: 16%;
+        height: 60px;
+        font-size: 30px;
+        user-select: none;
+        transition: 0.2s;
+    }
+    .playcomputer:hover {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 1px 1px 8px orangered;
+        transform: scale(1.05);
+    }
+    .playcomputer:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .playfriend{
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #f80606;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px orangered;
+        height: 60px;
+        font-size: 30px;
+        width: 16%;
+        transition: 0.2s;
+    }
+    .playfriend:hover {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 1px 1px 8px orangered;
+        transform: scale(1.05);
+    }
+    .playfriend:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .copy {
+        font-size: 150%;
+        margin-left: 5%;
+    }
+    .mail,.tel {
+        font-size: 150%;
+        color: #0786ed;
+    }
+    .mail:hover,.tel:hover {
+        color: #07f2f2;
+    }
+    .maila,.tela {
+        font-size: 100%;
+        color: #0786ed;
+    }
+    .maila:hover,.tela:hover {
+        color: #07f2f2;
+    }
+    .godark {
+        font-size: 40px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 20px;
+    }  
+    .godark:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    .godark:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    .golight {
+        font-size: 40px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: black;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 20px;
+    }  
+    .golight:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    .golight:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+}
+@media (max-width:999px) and (min-width:560px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 33px;
+        display: inline-block;
+    }
+    .mainfiel {
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .question {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .playcomputer {
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #07f2f2;
+        border-radius: 30px;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px #0786ed;
+        width: 25%;
+        height: 60px;
+        font-size: 25px;
+        user-select: none;
+        transition: 0.2s;
+    }
+    .playcomputer:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .playfriend{
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #f80606;
+        border-radius: 30px;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px orangered;
+        height: 60px;
+        font-size: 25px;
+        width: 25%;
+        transition: 0.2s;
+    }
+    .playfriend:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .copy {
+        font-size: 150%;
+        margin-left: 5%;
+    }
+    .mail,.tel {
+        font-size: 150%;
+        color: #0786ed;
+    }
+    .mail:hover,.tel:hover {
+        color: #07f2f2;
+    }
+    .maila,.tela {
+        font-size: 100%;
+        color: #0786ed;
+    }
+    .maila:hover,.tela:hover {
+        color: #07f2f2;
+    }
+    .godark {
+        font-size: 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #333;
+        color: #fff;
+        transition: 0.15s;
+        margin-left: 10px;
+    }  
+    .godark:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    .golight {
+        font-size: 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: black;
+        transition: 0.15s;
+        margin-left: 10px;
+    }  
+    .golight:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+}
+@media (max-width:559px) {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+        display: inline-block;
+    }
+    .mainfiel {
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .question {
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .playcomputer {
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #07f2f2;
+        border-radius: 30px;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px #0786ed;
+        width: 35%;
+        height: 50px;
+        font-size: 20px;
+        user-select: none;
+        transition: 0.2s;
+    }
+    .playcomputer:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .playfriend{
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        background-color: #f80606;
+        border-radius: 30px;
+        margin-left: 10px;
+        box-shadow: 1px 1px 5px orangered;
+        height: 50px;
+        font-size: 20px;
+        width: 35%;
+        transition: 0.2s;
+    }
+    .playfriend:active {
+        opacity: 0.6;
+        background-color: #fff;
+        border-width: 3px;
+        border-color: lightskyblue;
+        box-shadow: 0px 0px 8px greenyellow;
+        transform: scale(0.9);
+    }
+    .copy {
+        font-size: 130%;
+        margin-left: 5%;
+    }
+    .mail,.tel {
+        font-size: 130%;
+        color: #0786ed;
+    }
+    .mail:hover,.tel:hover {
+        color: #07f2f2;
+    }
+    .maila,.tela {
+        font-size: 100%;
+        color: #0786ed;
+    }
+    .maila:hover,.tela:hover {
+        color: #07f2f2;
+    }
+    .godark {
+        font-size: 25px;
+        padding: 2px 10px;
+        border-radius: 30px;
+        background-color: #333;
+        color: #fff;
+        transition: 0.15s;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }  
+    .godark:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+    .golight {
+        font-size: 25px;
+        padding: 2px 10px;
+        border-radius: 30px;
+        background-color: #fff;
+        color: black;
+        transition: 0.15s;
+        margin-left: 5px;
+    }  
+    .golight:active {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+}

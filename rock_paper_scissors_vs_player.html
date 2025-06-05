@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="rock_paper_scissors_vs_player.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="playspace">
+        <div class="buttons">
+            <button class="rock rock1" onclick="
+                gamelogic('paper','scissors','rock','paper','scissors');
+            "></button>
+            <button class="paper paper1 b" onclick="
+                gamelogic('scissors','rock','paper','scissors','rock');
+            "></button>
+            <button class="scissors scissors1" onclick="
+                gamelogic('rock','paper','scissors','rock','paper');
+            "></button>
+            <button class="restart" onclick="resetscore();"></button>
+        </div>
+        <div class="score">
+            <div class="vs">
+                <div class="computer">
+                    <img src="you.png" class="computerpicture">
+                    <div class="tellc">
+                        <p class="computermove">Player1: </p>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="you2.png" class="playerpicture">
+                    <div class="tellp">
+                        <p class="playermove">Player2: </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="results">
+                <p class="wins">Wins:</p>
+                <p class="losses">Losses:</p>
+                <p class="ties">Ties:</p>
+                <button class="godark" onclick="changetheme();">Dark</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="rock_paper_scissors_vs_player.js"></script>
+</body>
+</html>
