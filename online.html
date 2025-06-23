@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS online</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="online.css">
+</head>
+<body>
+    <div class="score">
+        <button class="godark">Dark</button>
+        <div class="container">
+            <input type="text" placeholder="Your id..." class="username" maxlength="20" required>
+            <input type="number" name="roomid" class="roomid" placeholder="Room id..." max="999999999" required>
+            <button class="join">Join</button>
+        </div>
+        <p style="text-align:center; font-size:30px;" class="status"></p>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="online.js"></script>
+</body>
+</html>
