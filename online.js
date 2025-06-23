@@ -21,7 +21,7 @@ function changetheme() {
     }
 }
 document.querySelector('.godark').addEventListener('click',changetheme);
-const socket = io();
+const socket = io('https://rps-backend-1pog.onrender.com');
 // let currentRoom='';
 // let currentUser='';
 function joinRoom() {
