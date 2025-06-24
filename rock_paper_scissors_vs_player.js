@@ -1,3 +1,9 @@
+let addsound=new Audio('create.wav');
+addsound.preload='auto';
+function playaddsound() {
+    addsound.currentTime=0;
+    addsound.play();
+}
 let result="";
 let player1="";
 let player2="";
@@ -31,6 +37,7 @@ function gamelogic(killer,helper,move,other,other2) {
     document.querySelector('.scissors').style.backgroundImage="url('scissors.png')";
     document.querySelector('.scissors').style.backgroundSize = 'cover';
     if (document.querySelector(`.${move}`).classList.contains(`${move}1`)) {
+        playaddsound();
         player1=move;
         
         document.querySelector(`.${move}`).classList.add(`${move}2`);
@@ -42,6 +49,7 @@ function gamelogic(killer,helper,move,other,other2) {
         document.querySelector('.tellc').style.color=c;
         document.querySelector('.tellp').style.color="yellow";
     } else if (document.querySelector(`.${move}`).classList.contains(`${move}2`)) {
+        playaddsound();
         player2=move;
         
         document.querySelector(`.${move}`).classList.add(`${move}1`);
@@ -96,6 +104,7 @@ function gamelogic(killer,helper,move,other,other2) {
 }
 
 function resetscore (){ 
+    playaddsound();
     score.tie=0;
     score.win=0;
     score.lose=0;
@@ -130,6 +139,7 @@ function changetheme() {
         lightElement.innerHTML="Dark";
         c=scoreBox.style.color ; 
     }
+    playaddsound();
 }
 document.body.addEventListener('keydown',(event)=> {
     if (event.key==='Backspace') {
