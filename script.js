@@ -1,3 +1,9 @@
+let addsound=new Audio('create.wav');
+addsound.preload='auto';
+function playaddsound() {
+    addsound.currentTime=0;
+    addsound.play();
+}
 function changetheme() {
     const darkElement = document.querySelector('.godark');
     const lightElement = document.querySelector('.golight');
@@ -17,5 +23,6 @@ function changetheme() {
         lightElement.innerHTML="Dark";
         /*TODO: set theme to local storage*/
     }
+    playaddsound();
 }
 document.querySelector('.godark').addEventListener('click',changetheme);
