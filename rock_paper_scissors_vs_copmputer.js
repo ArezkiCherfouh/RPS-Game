@@ -1,3 +1,9 @@
+let addsound=new Audio('create.wav');
+addsound.preload='auto';
+function playaddsound() {
+    addsound.currentTime=0;
+    addsound.play();
+}
 let choice="";
 let result="";
 let computer="";
@@ -47,6 +53,7 @@ if (savedtheme==='golight'){
     element.classList.contains('classname')
 */ 
 function playgame (killer,helper) {
+    playaddsound();
     if (computer===choice){
         result="Tie";
         score.tie++;
@@ -84,6 +91,7 @@ function playgame (killer,helper) {
     localStorage.setItem('score' , JSON.stringify(score));
 }
 function resetscore (){ 
+    playaddsound();
     score.tie=0;
     score.win=0;
     score.lose=0;
@@ -114,5 +122,6 @@ function changetheme() {
         lightElement.innerHTML="Dark";
         /*TODO: set theme to local storage*/
     }
+    playaddsound();
 }
 document.querySelector('.godark').addEventListener('click',changetheme);
